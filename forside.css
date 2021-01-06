@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* unvisited link */
+a:link {
+    color: #500b65;
+}
+
+/* mouse over link */
+a:hover {
+    color: #87cefa;
+}
+
+
+header {
+
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat',
+        sans-serif;
+}
