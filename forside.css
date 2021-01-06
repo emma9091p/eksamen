@@ -17,10 +17,12 @@ a:hover {
 }
 
 
-header {
+.links {
 
     text-align: center;
     width: 100%;
     font-family: 'Montserrat',
         sans-serif;
+    font-size: 3vh;
+    text-decoration: none;
 }
