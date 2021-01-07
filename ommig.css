@@ -12,7 +12,7 @@ h1 {
 
 }
 
-.text_container {
+.omtext_container {
     grid-template-columns: 1fr 1fr;
     display: grid;
     grid-gap: 20px;
@@ -21,7 +21,7 @@ h1 {
 
 }
 
-.image_container {
+.omimage_container {
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: grid;
@@ -40,7 +40,7 @@ img {
 
 /*283*/
 @media (max-width: 1170px) {
-    .image_container {
+    .omimage_container {
     /*position: absolute;*/
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -52,19 +52,19 @@ img {
 
     }
 
-    .image_container .image1 {
+    .omimage_container .image1 {
     grid-column: 1/2;
     grid-row: 1/2;
     }
-    .image_container .image2 {
+    .omimage_container .image2 {
     grid-column: 2/3;
     grid-row: 1/2;
     }
-    .image_container .image3 {
+    .omimage_container .image3 {
     grid-column: 2/3;
     grid-row: 2/4;
     }
-     .image_container .image4 {
+     .omimage_container .image4 {
     grid-column: 1/2;
     grid-row: 2/4;
     }
