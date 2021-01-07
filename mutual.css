@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* unvisited link */
+a:link {
+    color: #500b65;
+}
+
+/* mouse over link */
+a:hover {
+    color: #87cefa;
+}
+
+
+.links {
+
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 1.2rem;
+    /*virker ikke?
+    text-decoration: none;
+    */
+    padding: 1.2rem 2rem 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    background-color: aquamarine;
+    position: relative;
+    top: 0rem;
+}
