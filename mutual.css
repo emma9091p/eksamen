@@ -17,24 +17,38 @@ a:hover {
 }
 
 
-.links {
+.menu {
 
     text-align: center;
     width: 100%;
     font-family: 'Montserrat',
         sans-serif;
     font-size: 1.2rem;
-    /*virker ikke?
+    opacity: 60%;
+    list-style-type: none;
     text-decoration: none;
-    */
     padding: 1.2rem 2rem 1rem 2rem;
     display: flex;
     justify-content: space-between;
 
+
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: #fbfceb;
     position: relative;
     top: 0rem;
 }
+
+
+@media (max-width:1160px) {
+    .menu {
+        position: relative;
+        color: #fbfceb;
+
+
+    }
+
+
+}
+
