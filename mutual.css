@@ -16,6 +16,9 @@ a:hover {
     color: #87cefa;
 }
 
+img {
+    100%;
+}
 
 .menu {
 
@@ -52,4 +55,3 @@ nav {
 
 
 }
-

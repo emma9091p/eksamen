@@ -13,12 +13,12 @@ h2 {
 
 }
 
-.indhold1_image,
+/*.indhold1_image,
 .indhold2_image {
 
     box-shadow: 5px 5px 5px 5px lightgrey;
 
-}
+}*/
 
 .indhold2_container {
     grid-template-columns: 1fr 1fr;
@@ -29,9 +29,9 @@ h2 {
 
 }
 
-.image_container {
+.billed_container {
 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     grid-gap: 10px;
     padding-left: 50px;
@@ -42,15 +42,15 @@ h2 {
 
 }
 
-img {
+/*img {
     max-height: 30vw;
-}
+}*/
 
 /*billede med link*/
 
-.image_container {
+.container {
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 
 .image {
@@ -70,9 +70,12 @@ img {
     opacity: 0;
     transition: .5s ease;
     background-color: red;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.image1_container:hover .overlay {
+.container:hover .overlay {
     opacity: 1;
 }
 
