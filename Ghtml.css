@@ -13,12 +13,12 @@ h2 {
 
 }
 
-/*.indhold1_image,
-.indhold2_image {
+
+
+img {
 
     box-shadow: 5px 5px 5px 5px lightgrey;
-
-}*/
+}
 
 .indhold2_container {
     grid-template-columns: 1fr 1fr;
@@ -42,9 +42,9 @@ h2 {
 
 }
 
-/*img {
+img {
     max-height: 30vw;
-}*/
+}
 
 /*billede med link*/
 
