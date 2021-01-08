@@ -1,0 +1,168 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.indhold1_container {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    padding-bottom: 20px;
+
+
+}
+
+
+
+/*.indhold1_image,
+.indhold2_image {
+    width: 100%;
+
+}*/
+
+
+
+img {
+
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
+.indhold2_container {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.billed_container {
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+
+
+
+}
+
+/*img {
+    max-height: 30vw;
+
+}*/
+
+/*billede med link*/
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightcyan;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width:1100px) {
+    .billed_container {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        display: grid;
+
+
+        grid-gap: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+
+
+    }
+
+    .billed_container .image1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .billed_container .image2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .billed_container .image3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .billed_container .image4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+
+    @media (max-width:700px) {
+        .indhold1_container {
+            grid-template-columns: 1fr;
+            display: grid;
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+
+        }
+
+        .indhold2_container {
+            grid-template-columns: 1fr;
+            display: grid;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .billed_container {
+
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            display: grid;
+        }
