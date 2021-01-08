@@ -1,0 +1,47 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.indhold1_container {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.indhold1_image,
+.indhold2_image {
+
+    box-shadow: 5px 5px 5px 5px lightgrey;
+
+}
+
+.indhold2_container {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.image_container {
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+
+
+
+}
+
+img {
+    max-height: 30vw;
+}
