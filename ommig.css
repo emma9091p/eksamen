@@ -48,13 +48,13 @@ img {
     .omimage_container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        /* bruges ikke grid-template-rows: 1fr 1fr;*/
         grid-gap: 20px;
     }
 
     .image {
-        margin-left: 20vw;
-        margin-right: 20vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
     }
 }
 
@@ -64,6 +64,6 @@ img {
     .omimage_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        /* bruges ikke grid-template-rows: 1fr 1fr 1fr 1fr;*/
 
     }
