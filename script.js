@@ -12,7 +12,7 @@ function sidenVises() {
 
 function toggleMenu() {
 
-    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+
     document.querySelector("#burgerfane").classList.toggle("hidden");
 
 

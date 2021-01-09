@@ -11,6 +11,11 @@ body {
 
 
 
+/* mouse over link */
+a:hover {
+    color: #cbbcfd;
+}
+
 img {
     width: 100%;
     height: 100%;

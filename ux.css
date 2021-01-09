@@ -28,7 +28,8 @@ h2 {
 
 img {
 
-    box-shadow: 5px 5px 5px 5px lightgrey;
+    box-shadow: 5px 5px 5px 5px #e8effc;
+    ;
 }
 
 .indhold2_container {
@@ -94,7 +95,7 @@ img {
 }
 
 .text {
-    color: white;
+    /*color: black;*/
     font-size: 20px;
     position: absolute;
     top: 50%;
