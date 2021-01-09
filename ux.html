@@ -12,9 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
 
-<header>
-    <nav class="hidden">
-        <div class="menu">
+
+
+<body>
+
+    <header>
+        <ul class="headerliste">
+
             <li><a href="forside.html">Forside</a></li>
             <li><a href="ommig.html">Om mig</a></li>
             <li><a href="Ghtml.html">Grundlæggende html</a></li>
@@ -22,23 +26,22 @@
             <li><a href="animation.html">Grundlæggende animation</a></li>
             <li><a href="indhold.html">Grundlæggende indhold</a></li>
 
+        </ul>
+
+        <div class="headerliste_mobil">
+            <div id="burgerknap">☰</div>
+            <ul class="hidden" id="burgerfane">
+
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="ommig.html">Om mig</a></li>
+                <li><a href="Ghtml.html">Grundlæggende html</a></li>
+                <li><a href="ux.html">Grundlæggende UX</a></li>
+                <li><a href="animation.html">Grundlæggende animation</a></li>
+                <li><a href="indhold.html">Grundlæggende indhold</a></li>
+            </ul>
         </div>
-        <div class="nav_menu">
-            <div id="menuknap" class="menuknapindex">☰</div>
-        </div>
-
-    </nav>
-
-
-
-</header>
-
-
-
-<body>
-
-
-    <section_wrapper>
+    </header>
+    <section class="section_wrapper">
         <h1>Grundlæggende UX</h1>
         <div class="indhold1_container">
             <div class="indhold1_text_container">
@@ -102,7 +105,7 @@
 
 
 
-    </section_wrapper>
+    </section>
 
 
     <script src="script.js"></script>
