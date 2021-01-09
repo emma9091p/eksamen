@@ -1,93 +1,69 @@
-h1 {
-    text-align: center;
-}
-
-.video_container {
-    grid-template-columns: 1fr;
-    padding-left: 50px;
-    padding-right: 50px;
-
-}
-
-.omtext_container {
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    grid-gap: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-
-}
-
-.omimage_container {
-
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    display: grid;
-    grid-gap: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-
-
-
-}
-
 img {
-    max-height: 30vw;
-    /*max-width: 100%;*/
+
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
+/*mobilversion*/
+
+@media (max-width:700px) {
+    .section_wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+
+
+
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4 {
+        margin-top: 2rem;
+    }
+
+
 
 }
 
+/*webversion*/
 
-@media (max-width:1100px) {
+
+@media (min-width:700px) {
+    .section_wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+
+
+
+
+    }
+
+    .omtext_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+
     .omimage_container {
-        /*position: absolute;*/
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .image {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+
+/*ipad version med billeder*/
+@media (min-width:1100px) {
+    .omimage_container {
         display: grid;
-        /*grid-gap: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 20px;*/
-
-    }
-
-    .omimage_container .image1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    .omimage_container .image2 {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-
-    .omimage_container .image3 {
-        grid-column: 2/3;
-        grid-row: 2/4;
-    }
-
-    .omimage_container .image4 {
-        grid-column: 1/2;
-        grid-row: 2/4;
-    }
-
-
-
-
-    @media (max-width:700px) {
-        .omimage_container {
-            /*position: absolute;*/
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-
-
-        }
-
-        .omtext_container {
-            grid-template-columns: 1fr;
-            display: grid;
-            padding-bottom: 20px;
-        }
-
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
 
     }
