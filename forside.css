@@ -3,7 +3,7 @@
 
     /*overskrift*/
     h1 {
-        position: absolute;
+        text-align: center;
         top: 26vh;
         left: 1.5vw;
         font-size: 100px;
@@ -14,13 +14,15 @@
     }
 
     h3 {
-        position: absolute;
+        text-align: center;
         top: 50vh;
         left: 13vw;
         font-size: 35px;
 
 
     }
+
+
 
 
 
