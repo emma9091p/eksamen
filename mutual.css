@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
 
 
@@ -22,18 +22,25 @@ img {
 }
 
 h1,
-h2 {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
+h2,
 h3,
 p {
+
     font-family: 'Montserrat', sans-serif;
+    word-spacing: 2px;
+    line-height: 30px;
+
+}
+
+h2,
+h3 {
+
+    text-align: center;
 }
 
 .section_wrapper {
     margin-top: 7vw;
+    margin-bottom: 3vw;
 }
 
 /*menu*/

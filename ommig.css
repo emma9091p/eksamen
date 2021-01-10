@@ -25,13 +25,13 @@ img {
 
 }
 
-/*webversion*/
+/*ipad version*/
 
 
 @media (min-width:700px) {
     .section_wrapper {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
 
 
 
@@ -58,12 +58,16 @@ img {
     }
 }
 
-
-/*ipad version med billeder*/
+/*webversion med billeder*/
 @media (min-width:1100px) {
     .omimage_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         /* bruges ikke grid-template-rows: 1fr 1fr 1fr 1fr;*/
 
+
+
     }
+
+
+}

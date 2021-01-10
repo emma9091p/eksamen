@@ -1,1 +1,61 @@
+/*ipad og mobilversion*/
+@media (max-width:1000px) {
 
+    /*overskrift*/
+    h1 {
+        position: absolute;
+        top: 26vh;
+        left: 1.5vw;
+        font-size: 100px;
+
+
+
+
+    }
+
+    h3 {
+        position: absolute;
+        top: 50vh;
+        left: 13vw;
+        font-size: 35px;
+
+
+    }
+
+
+
+}
+
+/*webversion*/
+@media (min-width:1000px) {
+
+    /*overskrift*/
+    h1 {
+        position: absolute;
+        top: 26vh;
+        left: 3vw;
+        font-size: 134px;
+
+
+    }
+
+    h3 {
+        position: absolute;
+        top: 53vh;
+        left: 19vw;
+        font-size: 45px;
+
+    }
+
+    /*billede*/
+    .forside {
+        position: fixed;
+        background-image: url(billeder/forside1.svg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: 60% 40%;
+        overflow: hidden;
+
+    }
+}
