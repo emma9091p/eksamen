@@ -16,6 +16,10 @@ a:hover {
     color: #cbbcfd;
 }
 
+
+
+
+
 img {
     width: 100%;
     height: auto;
@@ -37,12 +41,11 @@ p {
 
 }
 
-/*h2,
-h3 {
+h2 {
 
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-}*/
+}
 
 .section_wrapper {
     margin-top: 7vw;

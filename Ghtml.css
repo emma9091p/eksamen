@@ -6,7 +6,7 @@ img {
 }
 
 h2,
-    {
+h3 {
 
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -141,6 +141,7 @@ h2,
         }
 
         .billed_container {
+
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
             display: grid;
