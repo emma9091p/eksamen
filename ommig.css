@@ -3,6 +3,14 @@ img {
     box-shadow: 5px 5px 5px 5px #e8effc;
 }
 
+
+h2,
+    {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*mobilversion*/
 
 @media (max-width:700px) {
@@ -24,6 +32,7 @@ img {
 
 
 }
+
 /*ipad version*/
 
 
