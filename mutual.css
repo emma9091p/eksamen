@@ -14,6 +14,7 @@ body {
 /* mouse over link */
 a:hover {
     color: #cbbcfd;
+
 }
 
 
@@ -36,7 +37,7 @@ p {
 
     font-family: 'Montserrat', sans-serif;
     word-spacing: 2px;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     font-size: 15px;
 
 }

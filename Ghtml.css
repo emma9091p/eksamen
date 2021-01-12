@@ -12,6 +12,14 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
 /*billede med link - gælder alle størrelser*/
 
 .container {
