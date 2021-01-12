@@ -138,19 +138,21 @@ a {
         grid-row: 2/3;
     }
 
+}
 
-    /*mobilversion*/
-    @media (max-width:700px) {
-        .indhold1_container {
-            grid-template-columns: 1fr;
-            display: grid;
-            padding-bottom: 10px;
-            padding-top: 10px;
-        }
+/*mobilversion*/
+@media (max-width:700px) {
+    .indhold1_container {
+        grid-template-columns: 1fr;
+        display: grid;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 
-        .billed_container {
+    .billed_container {
 
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-            display: grid;
-        }
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        display: grid;
+    }
+}
