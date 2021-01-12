@@ -3,12 +3,10 @@
 }
 
 
-
 body {
     margin: 0;
     background-color: #f0f8ff;
 }
-
 
 
 /* mouse over link */
@@ -16,9 +14,6 @@ a:hover {
     color: #cbbcfd;
 
 }
-
-
-
 
 
 img {
@@ -29,10 +24,7 @@ img {
 }
 
 
-
-
 h1,
-
 p {
 
     font-family: 'Montserrat', sans-serif;

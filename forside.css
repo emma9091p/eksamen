@@ -1,25 +1,6 @@
 /*ipad og mobilversion*/
 @media (max-width:1100px) {
 
-    /*overskrift*/
-    /* .text {
-        margin-top: 19rem;
-    }
-
-    h1 {
-        text-align: center;
-        top: 26vh;
-        left: 1.5vw;
-        font-size: 100px;
-    }
-
-    h3 {
-        text-align: center;
-        top: 50vh;
-        left: 13vw;
-        font-size: 35px;
-    }
-    */
 
     .text {
         display: none;
@@ -36,7 +17,6 @@
         overflow: hidden;
 
     }
-
 
 }
 

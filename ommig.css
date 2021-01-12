@@ -40,9 +40,6 @@ h2 {
         margin-left: 40px;
         margin-right: 40px;
 
-
-
-
     }
 
     .omtext_container {
@@ -70,10 +67,5 @@ h2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
-
-
-
     }
-
-
 }
