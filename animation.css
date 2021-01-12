@@ -12,6 +12,13 @@ h2,
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: mediumpurple;
+
+}
+
 /*billede med link - gælder alle størrelser*/
 
 .container {
@@ -42,7 +49,7 @@ h2,
 }
 
 .container:hover .overlay {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .text {

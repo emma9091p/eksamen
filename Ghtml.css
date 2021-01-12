@@ -16,7 +16,7 @@ h3 {
 a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: black;
+    color: mediumpurple;
 
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 .container:hover .overlay {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .text {
